@@ -1,0 +1,265 @@
+body {
+	background: #fff;
+	color: #4f4f4f;
+	font-family: 'PT Sans',sans-serif;
+	font-size: 14px;
+	padding-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #111111;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	line-height: 1.1;
+	margin: .4em 0 1.2em;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 18px;
+  line-height: 1.313em;
+  color: #777;
+}
+
+h1 a, h1 a:link, h1 a:visited, h1 a:hover, h1 a:active{
+	color: #111111;
+	text-decoration: none;
+}
+
+a, a:visited {
+	color: #333333;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+a:hover {
+	color: #767676;
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.4;
+	margin: 0 0 15px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1920px;
+	min-width: 800px;
+}
+
+
+
+
+/* Header*/
+.header-top, nav {
+	text-align: center;
+	text-transform: uppercase;
+}
+.header-top {
+	margin-bottom: 25px;
+}
+.header-top h2 {
+	font-size: 11px;
+}
+
+
+	/*Navigation*/
+nav, address {
+	display: block;
+}
+nav {
+	margin-bottom: 40px;
+}
+nav > ul {
+	margin: 0;
+	padding: 0;
+}
+nav > ul > li {
+	display: inline-block;
+	line-height: 2em;
+	position: relative;
+}
+nav > ul > li {
+	display: inline-block;
+	line-height: 2em;
+	position: relative;
+}
+nav > ul > li:hover ul {
+	display: block;
+}
+
+nav a {
+	display: block;
+	letter-spacing: 1px;
+	line-height: 2.4em;
+	font-size: 12px;
+	padding: 0 6px;
+}
+nav a.active {
+	color: #111111;
+}
+
+nav > ul > li > ul {
+	background: rgba(255,255,255,0.7);
+	display: none;
+	left: 0px;
+	list-style: none;
+	margin: 0;
+	min-width: 100%;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	z-index: 10;
+}
+nav > ul > li > ul > li {
+	text-align: left;
+	transition: all 0.3s ease-out;
+	
+}
+nav > ul > li > ul > li:hover {
+	background: rgba(255,255,255,0.9);
+}
+nav > ul > li > ul > li > a {
+	display: block;
+	padding: 2px 5px 2px 10px;
+}
+
+
+
+/* Slider */
+#slider {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+
+/* Content */
+.content {
+	margin: 0 auto;
+	min-height: 600px;
+	text-align: center;
+	width: 80%;
+}
+.content .album-descr {
+	font-size: 13px;
+	margin: 0 0 30px;
+}
+.content .content-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.content .content-list li {
+	margin: 0 0 50px;
+}
+.content .content-list span.img-wrap {
+	display: block;
+}
+.content .content-list img {
+	height: auto;
+	margin: 0px auto;
+	max-height: 1000px;
+	max-width: 100%;
+}
+.content .content-list span.img-caption {
+	display: inline-block;
+	font-size: 12px;
+	padding: 1em 0;
+	width: 60%;
+}
+.content .content-list span.img-caption h4 {
+	font-weight: 700;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+}
+
+
+
+/* Album-list */
+.content .album-list {
+}
+.content .album-list li {
+	float: left;
+	margin-right: 5%;
+	width: 30%;
+}
+.content .album-list li:nth-child(3n) { 
+	margin-right: 0;
+}
+.content .album-list li img {
+	width: 100%;
+}
+.content .album-list li h2 {
+	font-size: 1em;
+	margin: .6em 0;
+}
+.content .album-list li p {
+	color: #999;
+	font-size: .9em;
+	line-height: 1.3em;
+	margin-bottom: 1.5em;
+}
+
+
+
+/* Page */
+.content-text {
+	float: left;
+	margin-right: 5%;
+	width: 65%;
+}
+.content-image-right {
+	float: right;
+	width: 30%;
+}
+.content-image-right img {
+	width: 100%;
+}
+
+
+
+/* Footer */
+.footer {
+	margin: 2em 0;
+}
+.footer h3 {
+	text-transform: capitalize;
+	text-align: center;
+	color: #777;
+	font-size: 13px;
+	margin-top: 50px;
+}

@@ -1,0 +1,109 @@
+
+
+
+#edit-area .wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1920px;
+	min-width: 800px;
+}
+
+#edit-area {
+	padding: 30px 0;
+}
+
+
+/* Header*/
+#edit-area .header {
+	margin-bottom: 25px;
+}
+#edit-area .logo {
+	background: #dbdbdb;
+	border: 1px dashed #c5c5c5;
+	color: #666;
+	height: 80px;
+	font-size: 18px;
+	line-height: 80px;
+	margin: 0 auto 25px;
+	text-align: center;
+	width: 200px;
+}
+#edit-area .menu {
+	background: #dbdbdb;
+	border: 1px dashed #c5c5c5;
+	color: #666;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+}
+
+
+/* Slider */
+#edit-area .slider {
+	background: #dbdbdb;
+	margin: 0 auto;
+	min-height: 400px;
+	max-width: 940px;
+}
+#edit-area .rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#edit-area .rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+#edit-area .rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+#edit-area .rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+
+/* Content */
+#edit-area .content {
+	margin: 0 auto 25px;
+	min-height: 600px;
+	text-align: center;
+	width: 80%;
+}
+
+
+/* Footer */
+#edit-area .footer {
+	margin: 2em 0;
+	background: #dbdbdb;
+	border: 1px dashed #c5c5c5;
+	color: #666;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+#edit-area .footer h3 {
+	text-transform: capitalize;
+	text-align: center;
+	color: #777;
+	font-size: 13px;
+	margin-top: 50px;
+}
